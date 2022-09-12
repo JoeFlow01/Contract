@@ -1,0 +1,12 @@
+pragma solidity >=0.5.0 <0.6.0;
+
+contract youssef {
+
+    uint x = 2;
+    uint y = 5;
+    uint z = y-x;
+
+function Minus() public view returns (uint) {
+  return z;
+}
+}
